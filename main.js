@@ -1,4 +1,5 @@
 const urlGatinhos = 'https://api.thecatapi.com/v1/images/search?limit=10';
+const urlMarcas = 'https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/data.json';
 
 const buscarGatinhos = (e) => {
     e.preventDefault();
@@ -38,9 +39,6 @@ const buscarGatinhos = (e) => {
 
 const btnShow = document.querySelector("#mostrar-gatinhos");
 btnShow.addEventListener("click", buscarGatinhos);
-
-
-const urlMarcas = 'https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/data.json';
 
 const buscarMarcas = (e) => {
     e.preventDefault();
