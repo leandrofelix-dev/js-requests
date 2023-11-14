@@ -12,3 +12,12 @@ img {
     height: 250px;
     border-radius: 10px;
 }
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    background-color: red;
+    margin: 1rem
+}
